@@ -34,13 +34,16 @@ Ce projet inclut :
 ## 📸 Captures d’écran
 
 ### Début de partie
-![Début](images/debut_partie.png)
+![Début](images/debut.png)
 
 ### Partie en cours
-![En cours](images/partie_en_cours.png)
+![En cours](images/cour.png)
 
 ### Victoire d’un joueur
-![Victoire](images/victoire.png)
+![Victoire](images/win.png)
+
+### Match null
+![Victoire](images/nothing.png)
 
 ---
 
