@@ -1,42 +1,63 @@
-# 🎮 Jeu Tic-Tac-Toe
+# 🎮 Jeu Tic-Tac-Toe - Portfolio
 
-## 📌 Description
-
-Ce projet est une implémentation du célèbre jeu **Tic-Tac-Toe** (Morpion) développée en Java.  
-Il permet à deux joueurs de s’affronter tour à tour sur une grille 3×3 jusqu’à ce qu’un joueur aligne trois symboles identiques ou que la partie se termine par un match nul.
-
-Ce projet met en pratique les bases de la programmation orientée objet ainsi que la gestion de la logique d’un jeu simple.
+![Java](https://img.shields.io/badge/Java-17+-orange?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
 ---
 
-## 🧩 Règles du jeu
+## 👋 Bonjour, je suis TakoBri
 
-- Le jeu se joue sur une grille de **3 lignes et 3 colonnes**.
-- Deux joueurs jouent alternativement :
-  - Joueur 1 : `X`
-  - Joueur 2 : `O`
-- Un joueur gagne lorsqu’il aligne **trois symboles identiques** :
-  - Horizontalement
-  - Verticalement
-  - En diagonale
-- Si toutes les cases sont remplies sans alignement, la partie se termine par un **match nul**.
+Bienvenue sur mon projet **Tic-Tac-Toe** !  
+Ce projet est une démonstration de mes compétences en **Java**, **programmation orientée objet** et **logique de jeu**.
 
 ---
 
-## ⚙️ Fonctionnalités
+## 🔹 Aperçu du projet
 
-- Interface en console
-- Validation des entrées utilisateur
-- Alternance automatique des joueurs
-- Détection de victoire
-- Gestion du match nul
-- Code structuré et lisible
+Le Tic-Tac-Toe (ou Morpion) est un jeu classique où deux joueurs s’affrontent sur une grille 3x3 :
+
+- **Joueur 1** : X  
+- **Joueur 2** : O  
+- **Objectif** : aligner trois symboles horizontalement, verticalement ou en diagonale  
+- **Match nul** : lorsque la grille est pleine sans gagnant  
+
+Ce projet inclut :
+
+- Une interface console simple et intuitive  
+- Validation des entrées utilisateur  
+- Détection automatique des victoires et match nul  
 
 ---
 
-## 🚀 Lancement du projet
+## 📸 Captures d’écran
 
-### 1. Compilation
+### Début de partie
+![Début](images/debut_partie.png)
 
+### Partie en cours
+![En cours](images/partie_en_cours.png)
+
+### Victoire d’un joueur
+![Victoire](images/victoire.png)
+
+---
+
+## 🛠️ Technologies et compétences utilisées
+
+- **Langage** : Java  
+- **Concepts clés** : POO, boucles, conditions, tableaux  
+- **Outils** : Console, GitHub  
+- **Compétences pratiques** : logique de jeu, validation, interface utilisateur simple  
+
+---
+
+## 🚀 Lancer le projet
+
+### 1️⃣ Compiler le fichier
 ```bash
-javac TicTacToe.java
+javac src/TicTacToe.java
+
+## Exécuter le programme :
+java TicTacToe
